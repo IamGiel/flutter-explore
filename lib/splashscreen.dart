@@ -10,6 +10,37 @@ class MySplash extends StatefulWidget {
 class _MySplashState extends State<MySplash> {
   @override
   Widget build(BuildContext context) {
-    return Container(child: Text('This works'));
+    return SplashScreen(
+      seconds: null,
+      navigateAfterSeconds: Home(),
+      title: Text('Cat V Dog',
+          style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              color: Color(0xFFe996600))),
+      image: Image.asset('assets/cat.png'),
+      backgroundColor: Colors.black,
+      photoSize: 50,
+      loaderColor: Color(0xFFEEDA28),
+    );
   }
 }
+
+// {
+//   Color loaderColor,
+//   int seconds,
+//   double photoSize,
+//   dynamic onClick,
+//   dynamic navigateAfterSeconds,
+//   Text title = const Text(''),
+//   Color backgroundColor = Colors.white,
+//   TextStyle styleTextUnderTheLoader = const TextStyle(
+//     fontSize: 18.0,
+//     fontWeight: FontWeight.bold,
+//     color: Colors.black
+//   ),
+//   Image image,
+//   Text loadingText = const Text(""),
+//   ImageProvider < Object > imageBackground,
+//   Gradient gradientBackground
+// }
