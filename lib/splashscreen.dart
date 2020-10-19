@@ -11,14 +11,14 @@ class _MySplashState extends State<MySplash> {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: null,
+      seconds: 2,
       navigateAfterSeconds: Home(),
-      title: Text('Cat V Dog',
+      title: Text('Spider Live.Ai',
           style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30,
               color: Color(0xFFe996600))),
-      image: Image.asset('assets/cat.png'),
+      image: Image.asset('assets/spider.png'),
       backgroundColor: Colors.black,
       photoSize: 50,
       loaderColor: Color(0xFFEEDA28),
