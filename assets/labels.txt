@@ -1,10 +1,10 @@
-0 Common House Spider
-1 Orb Weaver Spider
-2 Wolf Spider
-3 Brown Recluse
-4 Black Widow
-5 Hobo Spider
-6 Sac Spider
-7 Daddy Long Legs
-8 Jumping Spider
-9 Grass Spider
+Common House Spiders
+Orb Weaver Spiders
+Wolf Spiders
+Brown Recluse Spiders
+Black Widow Spiders
+Hobo Spiders
+Sac Spiders
+Daddy Long Legs Spiders
+Jumping Spiders
+Grass Spiders

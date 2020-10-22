@@ -1,0 +1,44 @@
+[
+    {
+        "id":0,
+        "name": "Common House Spider",
+        "description":"What they look like: These spiders are on the smaller side—about the size of a nickel—and have a round abdomen. They’re also usually grey and will have some white markings, says Marc Potzler, a board-certified entomologist and technical services manager with Ehrlich Pest Control. “Their web often looks very tangled or messy,” he adds. Where you’ll find them: They like to hang out in dark, concealed areas. “They hide in corners, underneath cabinets, in basements, sometimes in garages around the windows where flies may be active,” Potzler says. Can they harm you? Nope.",
+        "toxicity":"Their bites can be painful, but are not lethal to humans."
+    },
+    {
+        "id":1,
+        "name": "Orb Weaver Spider",
+        "description":"Common House Spider Common House Spider",
+        "toxicity":"Their bites can be painful, but are not lethal to humans."
+    },
+    {
+        "id":2,
+        "name": "Wolf Spider",
+        "description":"What they look like: There are more than 200 species of wolf spiders found around the country, and they can range in size. “The largest species can be up to an inch and a half long,” says Potzler. They’re hairy and tend to be gray, black, or brown. They can also be confused with tarantulas. “These are nomadic spiders that don’t spin webs to catch their prey—they hunt them down,” says Howard Russell, an entomologist at Michigan State University.Where you’ll find them: They usually show up in basements, sheds, or garages where insects are, Potzler says. Outside, they like to hide in or around debris, under boards and cinderblocks, or in naturally-occurring gaps in the house.Can they harm you? No. “They would prefer to hide than bite,” says Russell.",
+        "toxicity":"Their bites can be painful, but are not lethal to humans."
+    },
+    {
+        "id":3,
+        "name": "Brown Recluse",
+        "description":"Common House Spider Common House Spider",
+        "toxicity":"Their bites can be painful, but are not lethal to humans."
+    },
+    {
+        "id":4,
+        "name": "Black Widow",
+        "description":"What they look like: Black widows have a shiny black color and are known for their red hourglass-shaped marking on the underside of the abdomen, says Potzler. “They may also have red markings going up its back,” he adds. Where you’ll find them: They can hide in mailboxes or garages, and they like corners, edges, and tall grass, Russell says.",
+        "toxicity":"Can they harm you? “This is one of the few species of spider that can be dangerous to people,” says Potzler. “There are approximately 2,200 bites reported each year, but there has not been a death related to a widow spider in the U.S. since 1983.” If you’re bitten by a black widow, you may have intense pain, muscle stiffness, possible nausea, and vomiting, usually within a few hours of the bite, Potzler says. If you or someone in your family is bitten by a black widow, you’ll want to head to the ER ASAP."
+    },
+    {
+        "id":5,
+        "name": "Hobo Spider",
+        "description":"Hobo spiders are tannish-brown and the top of the spider may look mottled, with darker and lighter spots. They look pretty hairy and have spiny hairs coming off the legs. Where you’ll find them: While they’re usually outside, they sometimes venture indoors. It can hide in clothing, beds, and shoes.",
+        "toxicity":"Can they harm you? Yes. The hobo spider can inflict a painful bite that results in localized red swelling and some pain, but no necrotic lesion. Usually, symptoms will get better within 24 hours with OTC painkillers and ice."
+    },
+    {
+        "id":6,
+        "name": "Jumping Spider",
+        "description":"Jumping spiders are commonly mistaken for black widow spiders due to their compact black bodies with relatively short legs. However, jumping spiders can also be brown, tan or gray in color with pale white, gray, yellow, red, blue or green markings. Adult jumping spiders range in size from about 1/8-3/4” (4-18 mm) and are typically covered in dense hairs or scales that are brightly colored or iridescent. Their front legs are usually thicker and somewhat longer than their other legs. Adult zebra spiders have gray bodies with white markings on their front and abdomen. Their legs are white or brown with gray rings, resembling a zebra. Female zebra spiders are 3/16-1/4” (4.3-6.4 mm), while males are 1/8-1/4” (4-5.5 mm).",
+        "toxicity":"Jumping spiders may bite people if they feel trapped or threatened. Jumping spiders have venom that they use to control their prey, but this venom is not dangerous to humans. A jumping spider bite is usually nothing more than a small red welt."
+    }
+]
