@@ -1,44 +1,65 @@
 [
     {
         "id":0,
-        "name": "Common House Spider",
-        "description":"What they look like: These spiders are on the smaller side—about the size of a nickel—and have a round abdomen. They’re also usually grey and will have some white markings, says Marc Potzler, a board-certified entomologist and technical services manager with Ehrlich Pest Control. “Their web often looks very tangled or messy,” he adds. Where you’ll find them: They like to hang out in dark, concealed areas. “They hide in corners, underneath cabinets, in basements, sometimes in garages around the windows where flies may be active,” Potzler says. Can they harm you? Nope.",
-        "toxicity":"Their bites can be painful, but are not lethal to humans."
+        "name": "Common House Spiders",
+        "description":"Adult female house spiders have an almost spherical abdomen and are roughly 3/16-5/16' (5-8 mm) in length. Their male counterparts have elongated abdomens and are about 1/8-3/16' (3.8-4.7 mm) in length. For both females and males, the color is highly variable.",
+        "toxicity":"It is very unlikely that a common house spider will bite a human. They do not wander around as much as black widows and brown recluse spiders once they have found a place where the food is abundant. They prefer to sit in their webs and wait for prey to get trapped rather than hunting.",
+        "treatment":"Apply an ice pack on and off the bite for 10 minutes at a time. Elevate the area to reduce swelling. Take an antihistamine, such as diphenhydramine (Benadryl), to help with itching. Clean the area with soap and water to prevent infection. Apply antibiotic ointment to the area if blisters develop."
     },
     {
         "id":1,
-        "name": "Orb Weaver Spider",
-        "description":"Common House Spider Common House Spider",
-        "toxicity":"Their bites can be painful, but are not lethal to humans."
+        "name": "Orb Weaver Spiders",
+        "description":"Orb weavers are a very diverse group, with a wide range of colors, shapes and sizes. The males are smaller than the females, and most do not spin webs. A typical female garden spider has a large, rounded body with a small head and eight thick legs. Most have stripes, blotches or circles in shades of brown, gray, white or black. Some species have bright patterns in yellow, red, pink or even blue. Other unusual species of garden spiders resemble spiky crabs, and a few have triangular bodies. Garden spiders are not especially aggressive, and usually run if disturbed. Their venom is not strong enough to harm people or pets, and their bite is not exceptionally painful.",
+        "toxicity":"Their bites can be painful, but are not lethal to humans.",
+        "treatment":"Although their bite can sting, there's no reason to worry about spider bites from these guys. They're not poisonous. Technically speaking, they're venomous -- poison involves ingestion or absorption, venom involves injection -- but their venom isn't strong enough to seriously injure, let alone kill, a healthy human."
     },
     {
         "id":2,
-        "name": "Wolf Spider",
+        "name": "Wolf Spiders",
         "description":"What they look like: There are more than 200 species of wolf spiders found around the country, and they can range in size. “The largest species can be up to an inch and a half long,” says Potzler. They’re hairy and tend to be gray, black, or brown. They can also be confused with tarantulas. “These are nomadic spiders that don’t spin webs to catch their prey—they hunt them down,” says Howard Russell, an entomologist at Michigan State University.Where you’ll find them: They usually show up in basements, sheds, or garages where insects are, Potzler says. Outside, they like to hide in or around debris, under boards and cinderblocks, or in naturally-occurring gaps in the house.Can they harm you? No. “They would prefer to hide than bite,” says Russell.",
-        "toxicity":"Their bites can be painful, but are not lethal to humans."
+        "toxicity":"Their bites can be painful, but are not lethal to humans.",
+        "treatment":"If a wolf spider bites someone, there are some basic steps the person can take to avoid infection and help manage any swelling, itchiness, or soreness: clean the area bitten with soap and water apply an ice pack to reduce swelling if the bite is very itchy, take over-the-counter antihistamines avoid scratching, which can increase the chances of infection The symptoms should clear up after a few days. If they do not, speak to a doctor for advice and possible treatment."
     },
     {
         "id":3,
-        "name": "Brown Recluse",
-        "description":"Common House Spider Common House Spider",
-        "toxicity":"Their bites can be painful, but are not lethal to humans."
+        "name": "Brown Recluse Spiders",
+        "description":"The brown recluse is a brown spider with a distinct “violin-shaped marking” on the top of its head and down its back. Also, brown recluse spiders have six eyes, instead of the eight that many other spiders have.",
+        "toxicity":"The recluse can cause serious damage to people. Bite sites are a serious problem. A brown recluse bite can cause necrotizing wounds (meaning, it kills the cells and tissues around it), so you’ll want to see a doctor immediately if you think you’ve been bitten by one.",
+        "treatment":"Seek professional medical help as soon as possible.  Clean it with soap and water. Apply antibiotic cream. If you were bitten on an arm or leg, keep it raised while you're resting. This can reduce swelling. Put ice on it. Take over-the-counter pain medicine. Watch for more severe symptoms."
     },
     {
         "id":4,
-        "name": "Black Widow",
+        "name": "Black Widows",
         "description":"What they look like: Black widows have a shiny black color and are known for their red hourglass-shaped marking on the underside of the abdomen, says Potzler. “They may also have red markings going up its back,” he adds. Where you’ll find them: They can hide in mailboxes or garages, and they like corners, edges, and tall grass, Russell says.",
-        "toxicity":"Can they harm you? “This is one of the few species of spider that can be dangerous to people,” says Potzler. “There are approximately 2,200 bites reported each year, but there has not been a death related to a widow spider in the U.S. since 1983.” If you’re bitten by a black widow, you may have intense pain, muscle stiffness, possible nausea, and vomiting, usually within a few hours of the bite, Potzler says. If you or someone in your family is bitten by a black widow, you’ll want to head to the ER ASAP."
+        "toxicity":"Can they harm you? “This is one of the few species of spider that can be dangerous to people,” says Potzler. “There are approximately 2,200 bites reported each year, but there has not been a death related to a widow spider in the U.S. since 1983.” If you’re bitten by a black widow, you may have intense pain, muscle stiffness, possible nausea, and vomiting, usually within a few hours of the bite, Potzler says. If you or someone in your family is bitten by a black widow, you’ll want to head to the ER ASAP.",
+        "treatment":"Treatment for a black widow bite will vary depending on your health, symptoms, and the severity of the bite.  You may be given medication to help ease your pain. You might also be given medications to help lower the high blood pressure that sometimes accompanies a black widow spider bite.If the bite is more severe, you may need muscle relaxants or antivenom, which is an antitoxin used to treat venomous bite. In some cases, you may even need to be hospitalized.You should go to a doctor or emergency room right away if a black widow spider has bitten you."
     },
     {
         "id":5,
-        "name": "Hobo Spider",
+        "name": "Hobo Spiders",
         "description":"Hobo spiders are tannish-brown and the top of the spider may look mottled, with darker and lighter spots. They look pretty hairy and have spiny hairs coming off the legs. Where you’ll find them: While they’re usually outside, they sometimes venture indoors. It can hide in clothing, beds, and shoes.",
-        "toxicity":"Can they harm you? Yes. The hobo spider can inflict a painful bite that results in localized red swelling and some pain, but no necrotic lesion. Usually, symptoms will get better within 24 hours with OTC painkillers and ice."
+        "toxicity":"Can they harm you? Yes. The hobo spider can inflict a painful bite that results in localized red swelling and some pain, but no necrotic lesion. Usually, symptoms will get better within 24 hours with OTC painkillers and ice.",
+        "treatment":"A hobo spider bite can be painless but very serious. If you have been bitten by a hobo spider, stay calm (very important) and apply first aid.Wash the affected area and bandage it: A clean bandage can be placed on the bite wound after washing the spider bite area using either soap, alcohol or any other astringent. Take a pain reliever: A pain reliever such as benzocaine can be applied to the wound when pain is severe. Apply cold compress: You can also apply ice to the hobo spider bite area to delay absorption of the venom. Get help from a health professional or physician as soon as you can."
     },
     {
         "id":6,
-        "name": "Jumping Spider",
+        "name": "Jumping Spiders",
         "description":"Jumping spiders are commonly mistaken for black widow spiders due to their compact black bodies with relatively short legs. However, jumping spiders can also be brown, tan or gray in color with pale white, gray, yellow, red, blue or green markings. Adult jumping spiders range in size from about 1/8-3/4” (4-18 mm) and are typically covered in dense hairs or scales that are brightly colored or iridescent. Their front legs are usually thicker and somewhat longer than their other legs. Adult zebra spiders have gray bodies with white markings on their front and abdomen. Their legs are white or brown with gray rings, resembling a zebra. Female zebra spiders are 3/16-1/4” (4.3-6.4 mm), while males are 1/8-1/4” (4-5.5 mm).",
-        "toxicity":"Jumping spiders may bite people if they feel trapped or threatened. Jumping spiders have venom that they use to control their prey, but this venom is not dangerous to humans. A jumping spider bite is usually nothing more than a small red welt."
+        "toxicity":"Jumping spiders may bite people if they feel trapped or threatened. Jumping spiders have venom that they use to control their prey, but this venom is not dangerous to humans. A jumping spider bite is usually nothing more than a small red welt.",
+        "treatment":"If you suspect a jumping spider has bitten you, clean the site with soap and water. Then, apply a cold compress over the spider bite location. Adults can also take aspirin or acetaminophen and antihistamines to relieve minor symptoms."
+    },
+    {
+        "id":7,
+        "name": "Daddy Long Legs Spiders",
+        "description":"You’re probably pretty familiar with this one, but just in case: It has one round body part and very thin, long legs coming off of it.",
+        "toxicity":"They do not have venom glands. They pose no harm to humans.",
+        "treatment":"Daddy longlegs are not venomous."
+    },
+    {
+        "id":7,
+        "name": "Sac Spiders",
+        "description":"The spider will build a tent-like structure out of silk. They hide in the sac during the day and then hunt at night. They’re usually a pale beige or yellowish color and have a dark V shape on its body.",
+        "toxicity":" the bite of Cheiracanthium (Yellow Sac Spider) presents as two spots, 4-8mm apart, where the fangs penetrated the skin and are yellow-green, the color of the venom. After 4-8 hours, mild inflammation, swelling and pain develop. A blister may form over the necrotic lesion after a few days. After this sloughs, an irregular round, ulcerated wound of about 10mm remains. The wound is inflamed, swollen and painful. The wound could start to heal after 10 days but occasionally takes months. In some extreme cases, skin grafts have been necessary. ",
+        "treatment":"The use of antibiotics is usually required should secondary infections set in but this could be prevented by the use of an antibacterial cream such as Betadine. There is no anti-venom and an anti-tetanus injection is usually necessary."
     }
 ]

@@ -13,7 +13,7 @@ class _MySplashState extends State<MySplash> {
     return SplashScreen(
       seconds: 2,
       navigateAfterSeconds: Home(),
-      title: Text('Spider Live.Ai',
+      title: Text('Giel Labz',
           style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30,
