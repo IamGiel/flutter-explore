@@ -1,16 +1,11 @@
-# flutter_explore
+# What Spider
 
-A new Flutter project.
+A new Flutter project.  Ever seen a spider wander about and dont know what it is?  Is it venomous? Is it beneficial to have around? Were you bitten by one?  NOt sure what to do?
 
-## Getting Started
+Well, heres the app that will tell you.
 
-This project is a starting point for a Flutter application.
+Take snapshot of it (a good image please), and googles `Tensorflow lite` will do its NNC work.  Will tell you what that spider is all about.
 
-A few resources to get you started if this is your first Flutter project:
+Good luck.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Gel
