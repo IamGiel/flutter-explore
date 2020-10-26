@@ -29,72 +29,76 @@ class SpiderDetails extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Need to know bout $spiderName'),
+        title: Text('Know this...'),
       ),
       body: Stack(
         children: <Widget>[
           Container(
+              padding: EdgeInsets.all(16),
               child: Center(
                   child: FutureBuilder(
-            future: DefaultAssetBundle.of(context)
-                .loadString('assets/spiders/spider_details.json'),
-            builder: (context, snapshot) {
-              var myJsonData = jsonDecode(snapshot.data);
-              for (var i = 0; i < myJsonData.length; i++) {
-                if (myJsonData[i]['name'].indexOf(spiderName) > -1) {
-                  isolatedSpider = myJsonData[i];
-                }
-              }
-              return Scaffold(
-                // resizeToAvoidBottomPadding: false,
-                body: ListView(
-                  children: <Widget>[
-                    SizedBox(height: 5),
-                    Row(
+                future: DefaultAssetBundle.of(context)
+                    .loadString('assets/spiders/spider_details.json'),
+                builder: (context, snapshot) {
+                  var myJsonData = jsonDecode(snapshot.data);
+                  for (var i = 0; i < myJsonData.length; i++) {
+                    if (myJsonData[i]['name'].indexOf(spiderName) > -1) {
+                      isolatedSpider = myJsonData[i];
+                    }
+                  }
+                  return Scaffold(
+                    // resizeToAvoidBottomPadding: false,
+                    body: ListView(
                       children: <Widget>[
-                        Column(
-                          children: [
-                            SizedBox(height: 5),
-                            CustomRaisedButton(
-                              color: Colors.brown[200],
-                              onPressed: () {
-                                Navigator.push(
+                        SizedBox(height: 5),
+                        Stack(
+                          children: <Widget>[
+                            Column(
+                              children: [
+                                SizedBox(height: 5),
+                                CustomRaisedButton(
+                                  color: Colors.red[200],
+                                  onPressed: () {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) =>
+                                                CollageSpiderImages(
+                                                    spidey: spiderName)));
+                                  },
+                                  child: Text('See other photos of $spiderName',
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 12,
+                                          fontWeight: FontWeight.bold)),
+                                ),
+                                SizedBox(height: 15),
+                                _buildContainer(
                                     context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            CollageSpiderImages(
-                                                spidey: spiderName)));
-                              },
-                              child: Text('See other photos of $spiderName',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.bold)),
-                            ),
-                            SizedBox(height: 5),
-                            _buildContainer(
-                                context,
-                                isolatedSpider['description'],
-                                Colors.cyan[100],
-                                'Description'),
-                            SizedBox(height: 20),
-                            _buildContainer(context, isolatedSpider['toxicity'],
-                                Colors.yellow[100], 'The bite'),
-                            SizedBox(height: 20),
-                            _buildContainer(
-                                context,
-                                isolatedSpider['treatment'],
-                                Colors.green[200],
-                                'Treatments')
+                                    isolatedSpider['description'],
+                                    Colors.cyan[100],
+                                    'Description'),
+                                SizedBox(height: 20),
+                                _buildContainer(
+                                    context,
+                                    isolatedSpider['toxicity'],
+                                    Colors.yellow[100],
+                                    'The bite'),
+                                SizedBox(height: 20),
+                                _buildContainer(
+                                    context,
+                                    isolatedSpider['treatment'],
+                                    Colors.green[200],
+                                    'Treatments')
+                              ],
+                            )
                           ],
                         )
                       ],
-                    )
-                  ],
-                ),
-              );
-            },
-          ))),
+                    ),
+                  );
+                },
+              ))),
         ],
       ),
     );
@@ -108,13 +112,13 @@ class SpiderDetails extends StatelessWidget {
         color: colors,
         boxShadow: [
           BoxShadow(
-            color: Colors.purple[300].withOpacity(0.4),
+            color: Colors.grey[200].withOpacity(0.9),
             spreadRadius: 3,
             blurRadius: 3,
             offset: Offset(0, 1), // changes position of shadow
           ),
         ],
-        border: Border.all(color: Colors.purple[300]),
+        border: Border.all(color: Colors.white),
         borderRadius: BorderRadius.circular(2),
       ),
       height: 200,

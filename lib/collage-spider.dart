@@ -59,8 +59,6 @@ class _CollageSpiderImagesState extends State<CollageSpiderImages> {
               // print(snapshot.hasError);
               // print("snapshot.hasData");
               // print(snapshot.hasData);
-              print("data");
-              print(data);
               if (snapshot.hasData) {
                 // if have images
                 if (noImages == false) {

@@ -11,16 +11,16 @@ class _MySplashState extends State<MySplash> {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: 2,
+      seconds: 5,
       navigateAfterSeconds: Home(),
-      title: Text('Giel Labz',
-          style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              color: Color(0xFFe996600))),
-      image: Image.asset('assets/spider.png'),
+      // title: Text('Giel Labz',
+      //     style: TextStyle(
+      //         fontWeight: FontWeight.bold,
+      //         fontSize: 30,
+      //         color: Color(0xFFe996600))),
+      image: Image.asset('assets/gelLogo.png'),
       backgroundColor: Colors.black,
-      photoSize: 50,
+      photoSize: 150,
       loaderColor: Color(0xFFEEDA28),
     );
   }
