@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
 Notes:
-- keytool -genkey -v -keystore ~/spider3.jks -keyalg RSA -keysize 2048 -validity 10000 -alias spider3
+- keytool -genkey -v -keystore ~/spider4.jks -keyalg RSA -keysize 2048 -validity 10000 -alias spider4
 - flutter clean && flutter build appbundle --release
